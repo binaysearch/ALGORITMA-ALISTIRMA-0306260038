@@ -34,3 +34,39 @@ Başlangıç Dizisi: 7,3,5,8,2,9,4,15,6
 3. Adım:    2,3,4,8,7,9,5,15,6
 4. Adım:    2,3,4,5,7,9,8,15,6
 
+********************************************************************************
+
+https://www.skillcamp.dev/courses/veri-yapilari-ve-algoritmalar/merge-sort-proje
+Proje 2
+16,21,11,8,12,22 -> Merge Sort
+    Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+    Big-O gösterimini yazınız.
+
+*******************
+
+PROJE 2
+MERGE SORT
+Başlangıç Dizisi:
+16,21,11,8,12,22
+Bölme Aşamaları:
+16,21,11 8,12,22
+16 21,11 8 12,22
+16 21 11 8 12 22
+Birleştirme Aşamaları:
+11,21
+12,22
+11,16,21
+8,12,22
+8,11,12,16,21,22
+Sonuç:
+8,11,12,16,21,22
+
+BigO Değerleri:
+Best Case    : O(n log n)
+Average Case : O(n log n)
+Worst Case   : O(n log n)
+
+********************************************************************************
+
+
+
