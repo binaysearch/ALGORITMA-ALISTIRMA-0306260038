@@ -68,5 +68,63 @@ Worst Case   : O(n log n)
 
 ********************************************************************************
 
+https://www.skillcamp.dev/courses/veri-yapilari-ve-algoritmalar/binary-search-tree-proje
+Proje 3:
+7,5,1,8,3,6,0,9,4,2 dizisinin Binary-Search-Tree aşamalarını yazınız.
+Örnek: root xdir,rootun sağından y,Solunda z vb.
+
+*************************************
+
+PROJE 3
+BINARY SEARCH TREE
+Dizi:
+7,5,1,8,3,6,0,9,4,2
+
+Root düğümü 7dir.
+
+5,7den küçük olduğu için 7nin solunda.
+
+1,7den küçük olduğu için sola.
+1,5ten küçük olduğu için 5in solunda.
+
+8,7den büyük olduğu için 7nin sağında.
+
+3,7den küçük olduğu için sola.
+3,5ten küçük olduğu için sola.
+3,1den büyük olduğu için 1in sağında.
+
+6,7den küçük olduğu için sola.
+6,5ten büyük olduğu için 5in sağında.
+
+0,7den küçük olduğu için sola.
+0,5ten küçük olduğu için sola.
+0,1den küçük olduğu için 1in solunda.
+
+9,7den büyük olduğu için sağa.
+9,8den büyük olduğu için 8in sağında.
+
+4,7den küçük olduğu için sola.
+4,5ten küçük olduğu için sola.
+4,1den büyük olduğu için sağa.
+4,3ten büyük olduğu için 3ün sağında.
+
+2,7den küçük olduğu için sola.
+2,5ten küçük olduğu için sola.
+2,1den büyük olduğu için sağa.
+2,3ten küçük olduğu için 3ün solunda.
+
+Binary Search Tree:
+
+      7
+    /   \
+   5     8
+  / \     \
+ 1   6     9
+/ \
+```
+
+0   3
+/ 
+2   4
 
 
